@@ -35,7 +35,7 @@ public class FunctionsAPIExample {
        System.out.println(isNull.test("hello"));
        System.out.println(isNull.and(isEmpty).test("hello"));
        Assertions.assertEquals(false,isNull.test("hello"));
-       Assertions.assertEquals(false,isNull.and(isEmpty).test("hello"));
+       Assertions.assertEquals(false,isNull.and(isEmpty).test("hello")); 
    }
 
    @Test
