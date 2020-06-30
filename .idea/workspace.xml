@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9189764a-b819-49c5-85dd-21746b3aebbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
+            <state relative-caret-position="285">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionsAPIExample.cartFlowTest">
+  <component name="RunManager" selected="JUnit.FunctionsAPIExample.simpleLambda">
     <configuration name="FunctionsAPIExample.biPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functional-java" />
       <extension name="coverage">
@@ -201,22 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsAPIExample.chainFunctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="functional-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.functional.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.functional.java" />
-      <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
-      <option name="METHOD_NAME" value="chainFunctions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FunctionsAPIExample.predicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functional-java" />
       <extension name="coverage">
@@ -228,6 +210,22 @@
       <option name="PACKAGE_NAME" value="edu.functional.java" />
       <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
       <option name="METHOD_NAME" value="predicateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionsAPIExample.simpleLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.functional.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.functional.java" />
+      <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
+      <option name="METHOD_NAME" value="simpleLambda" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionsAPIExample.simpleLambda" />
         <item itemvalue="JUnit.FunctionsAPIExample.cartFlowTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.supplierTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.biPredicateTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.predicateTest" />
-        <item itemvalue="JUnit.FunctionsAPIExample.chainFunctions" />
       </list>
     </recent_temporary>
   </component>
@@ -273,12 +271,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionsAPIExample_executeFunctionAsArgument - 2020.06.30 at 10h 46m 31s.xml">
-      <configuration name="FunctionsAPIExample.executeFunctionAsArgument" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionsAPIExample_executeFunctionAsArgument - 2020.06.30 at 10h 46m 54s.xml">
-      <configuration name="FunctionsAPIExample.executeFunctionAsArgument" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunctionsAPIExample_unaryOperatorTest - 2020.06.30 at 11h 44m 13s.xml">
       <configuration name="FunctionsAPIExample.unaryOperatorTest" configurationId="JUnit" />
     </history-entry>
@@ -301,6 +293,12 @@
       <configuration name="FunctionsAPIExample.cartFlowTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FunctionsAPIExample_cartFlowTest - 2020.06.30 at 12h 56m 30s.xml">
+      <configuration name="FunctionsAPIExample.cartFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsAPIExample_supplierTest - 2020.06.30 at 15h 45m 24s.xml">
+      <configuration name="FunctionsAPIExample.supplierTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsAPIExample_cartFlowTest - 2020.06.30 at 15h 49m 03s.xml">
       <configuration name="FunctionsAPIExample.cartFlowTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -389,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="109" column="58" selection-start-line="109" selection-start-column="58" selection-end-line="109" selection-end-column="58" />
+        <state relative-caret-position="285">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

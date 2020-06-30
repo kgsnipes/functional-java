@@ -13,6 +13,13 @@ import java.util.function.*;
 
 public class FunctionsAPIExample {
 
+    @Test
+    public void simpleLambda()
+    {
+        Function<Integer,Integer> square=(x)->x*x;
+        System.out.println(square.apply(4));
+    }
+
    @Test
    public void incrementNumberTest()
    {
@@ -121,7 +128,7 @@ public class FunctionsAPIExample {
 
 
     @Test
-    public void lambdaExample()
+    public void lambdaThreadExample()
     {
         new Thread(()->{
             System.out.println("hello lambda expression");
