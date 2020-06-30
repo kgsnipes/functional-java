@@ -107,8 +107,18 @@ public class FunctionsAPIExample {
            return cart;
         };
 
-        BiFunction<String,Cart,Cart> addToCart=(product,cart)->{
-            LineItem lineItem=new LineItem(product,1,100.0);
+        Function<String,Double> getPrice=(product)->{
+           switch (product)
+           {
+               case "P1001":
+                   return 100.00;
+
+           }
+           return 0.00;
+        };
+
+        BiFunction<AddToCartDTO,Cart,Cart> addToCart=(product,cart)->{
+            LineItem lineItem=new LineItem(product.getProduct(),product.getQty(),getPrice.apply(product.getProduct()));
             cart.getLineItems().add(lineItem);
             return cart;
         };
@@ -121,7 +131,9 @@ public class FunctionsAPIExample {
         Consumer<Cart> displayCart=System.out::println;
 
         Cart cart=createCart.apply("1001");
-        addToCart.andThen(calculateCart).apply("P1001",cart);
+
+        addToCart.andThen(calculateCart).apply(new AddToCartDTO("P1001",1),cart);
+
         displayCart.accept(cart);
     }
 
@@ -211,6 +223,33 @@ class Cart
             e.printStackTrace();
         }
         return "";
+    }
+}
+
+class AddToCartDTO
+{
+    String product;
+    int qty;
+
+    public AddToCartDTO(String product, int qty) {
+        this.product = product;
+        this.qty = qty;
+    }
+
+    public String getProduct() {
+        return product;
+    }
+
+    public void setProduct(String product) {
+        this.product = product;
+    }
+
+    public int getQty() {
+        return qty;
+    }
+
+    public void setQty(int qty) {
+        this.qty = qty;
     }
 }
 

@@ -41,10 +41,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="580">
+              <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5226#5227#0" expanded="true" />
+                <element signature="e#5256#5257#0" expanded="true" />
+                <element signature="e#5302#5303#0" expanded="true" />
+                <element signature="e#5340#5341#0" expanded="true" />
+                <element signature="e#5367#5368#0" expanded="true" />
+                <element signature="e#5393#5394#0" expanded="true" />
+                <element signature="e#5428#5429#0" expanded="true" />
+                <element signature="e#5458#5459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionsAPIExample.simpleLambda">
+  <component name="RunManager" selected="JUnit.FunctionsAPIExample.cartFlowTest">
     <configuration name="FunctionsAPIExample.biPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functional-java" />
       <extension name="coverage">
@@ -249,8 +257,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunctionsAPIExample.simpleLambda" />
         <item itemvalue="JUnit.FunctionsAPIExample.cartFlowTest" />
+        <item itemvalue="JUnit.FunctionsAPIExample.simpleLambda" />
         <item itemvalue="JUnit.FunctionsAPIExample.supplierTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.biPredicateTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.predicateTest" />
@@ -271,9 +279,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionsAPIExample_unaryOperatorTest - 2020.06.30 at 11h 44m 13s.xml">
-      <configuration name="FunctionsAPIExample.unaryOperatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunctionsAPIExample_unaryOperatorTest - 2020.06.30 at 11h 47m 32s.xml">
       <configuration name="FunctionsAPIExample.unaryOperatorTest" configurationId="JUnit" />
     </history-entry>
@@ -301,12 +306,15 @@
     <history-entry file="FunctionsAPIExample_cartFlowTest - 2020.06.30 at 15h 49m 03s.xml">
       <configuration name="FunctionsAPIExample.cartFlowTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FunctionsAPIExample_simpleLambda - 2020.06.30 at 15h 53m 20s.xml">
+      <configuration name="FunctionsAPIExample.simpleLambda" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1772" y="-125" width="1428" height="939" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1919192" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1919192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2231405" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2231405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,10 +395,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="580">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5226#5227#0" expanded="true" />
+            <element signature="e#5256#5257#0" expanded="true" />
+            <element signature="e#5302#5303#0" expanded="true" />
+            <element signature="e#5340#5341#0" expanded="true" />
+            <element signature="e#5367#5368#0" expanded="true" />
+            <element signature="e#5393#5394#0" expanded="true" />
+            <element signature="e#5428#5429#0" expanded="true" />
+            <element signature="e#5458#5459#0" expanded="true" />
           </folding>
         </state>
       </provider>
