@@ -1,5 +1,6 @@
 package edu.functional.java;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -7,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Random;
 import java.util.function.*;
 
 public class FunctionsAPIExample {
@@ -81,6 +83,15 @@ public class FunctionsAPIExample {
     }
 
     @Test
+    public void supplierConsumerTest()
+    {
+        Supplier<Double> randomNumber=()->new Random().nextDouble();
+        Consumer<Double> consumer=System.out::println;
+        consumer.accept(randomNumber.get());
+
+    }
+
+    @Test
     public void cartFlowTest()
     {
         Function<String,Cart> createCart=(cartId)->{
@@ -100,9 +111,11 @@ public class FunctionsAPIExample {
             return cart;
         };
 
+        Consumer<Cart> displayCart=System.out::println;
+
         Cart cart=createCart.apply("1001");
         addToCart.andThen(calculateCart).apply("P1001",cart);
-        System.out.println(cart.getCartTotal());
+        displayCart.accept(cart);
     }
 
 
@@ -178,6 +191,19 @@ class Cart
 
     public void setLineItems(List<LineItem> lineItems) {
         this.lineItems = lineItems;
+    }
+
+    @Override
+    public String toString() {
+        try
+        {
+            return new ObjectMapper().writeValueAsString(this);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        return "";
     }
 }
 
