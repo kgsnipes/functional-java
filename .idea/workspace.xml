@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9189764a-b819-49c5-85dd-21746b3aebbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+            <state relative-caret-position="1373">
+              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5226#5227#0" expanded="true" />
@@ -97,10 +97,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1772" />
-    <option name="y" value="-125" />
+    <option name="x" value="1440" />
+    <option name="y" value="-101" />
     <option name="width" value="1428" />
-    <option name="height" value="939" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,21 +134,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="functional-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="functional-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="functional-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="functional-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -174,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionsAPIExample.cartFlowTest">
+  <component name="RunManager" selected="JUnit.FunctionsAPIExample.lambdaThreadExample">
     <configuration name="FunctionsAPIExample.biPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functional-java" />
       <extension name="coverage">
@@ -207,7 +192,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsAPIExample.predicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionsAPIExample.lambdaThreadExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functional-java" />
       <extension name="coverage">
         <pattern>
@@ -217,7 +202,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.functional.java" />
       <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
-      <option name="METHOD_NAME" value="predicateTest" />
+      <option name="METHOD_NAME" value="lambdaThreadExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionsAPIExample.lambdaThreadExample" />
         <item itemvalue="JUnit.FunctionsAPIExample.cartFlowTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.simpleLambda" />
         <item itemvalue="JUnit.FunctionsAPIExample.supplierTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.biPredicateTest" />
-        <item itemvalue="JUnit.FunctionsAPIExample.predicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,9 +264,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionsAPIExample_unaryOperatorTest - 2020.06.30 at 11h 47m 32s.xml">
-      <configuration name="FunctionsAPIExample.unaryOperatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunctionsAPIExample_chainFunctions - 2020.06.30 at 11h 51m 06s.xml">
       <configuration name="FunctionsAPIExample.chainFunctions" configurationId="JUnit" />
     </history-entry>
@@ -309,9 +291,12 @@
     <history-entry file="FunctionsAPIExample_simpleLambda - 2020.06.30 at 15h 53m 20s.xml">
       <configuration name="FunctionsAPIExample.simpleLambda" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FunctionsAPIExample_cartFlowTest - 2020.06.30 at 15h 59m 00s.xml">
+      <configuration name="FunctionsAPIExample.cartFlowTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1772" y="-125" width="1428" height="939" extended-state="0" />
+    <frame x="1440" y="-101" width="1428" height="827" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1919192" />
@@ -323,7 +308,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2231405" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+        <state relative-caret-position="1373">
+          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5226#5227#0" expanded="true" />

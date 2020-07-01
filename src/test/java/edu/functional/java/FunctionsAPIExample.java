@@ -142,6 +142,13 @@ public class FunctionsAPIExample {
     @Test
     public void lambdaThreadExample()
     {
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println("hello world");
+//            }
+//        }).start();
+
         new Thread(()->{
             System.out.println("hello lambda expression");
         }).start();
