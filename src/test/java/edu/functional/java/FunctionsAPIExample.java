@@ -124,9 +124,21 @@ public class FunctionsAPIExample {
     @Test
     public void cartFlowTest()
     {
-        Function<String,Cart> createCart=(cartId)->{
+        Consumer<Cart> displayCart=(cart)->{
+            System.out.println("Current Cart State :"+cart.toString() );
+            System.out.println();
+        };
+
+        Consumer<Order> displayOrder=(cart)->{
+            System.out.println("Current Order State :"+cart.toString() );
+            System.out.println();
+        };
+
+        Supplier<Cart> createCart=()->{
+            System.out.println("Creating a cart");
            Cart cart =new Cart();
-           cart.setCartId(cartId);
+           cart.setCartId(Long.toString(System.currentTimeMillis()));
+           displayCart.accept(cart);
            return cart;
         };
 
@@ -141,23 +153,38 @@ public class FunctionsAPIExample {
         };
 
         BiFunction<AddToCartDTO,Cart,Cart> addToCart=(product,cart)->{
+            System.out.println("Adding product to cart");
             LineItem lineItem=new LineItem(product.getProduct(),product.getQty(),getPrice.apply(product.getProduct()));
             cart.getLineItems().add(lineItem);
+            displayCart.accept(cart);
             return cart;
         };
 
         UnaryOperator<Cart> calculateCart=(cart)->{
+            System.out.println("Calculating the cart");
             cart.setCartTotal(cart.getLineItems().stream().map(lineItem -> lineItem.getUnitPrice()).reduce((price,total)->total=total+price).orElse(0.0));
+            displayCart.accept(cart);
             return cart;
         };
 
-        Consumer<Cart> displayCart=System.out::println;
 
-        Cart cart=createCart.apply("1001");
 
-        addToCart.andThen(calculateCart).apply(new AddToCartDTO("P1001",1),cart);
+        Function<Cart,Order> placeOrder=(cart)->{
+            System.out.println("Placing the order.");
+            Order order =new Order();
+            order.setOrderId(Long.toString(System.currentTimeMillis()));
+            order.setStatus("placed");
+            order.setLineItems(cart.getLineItems());
+            order.setTotal(cart.getCartTotal());
+            displayOrder.accept(order);
+            return order;
+        };
 
-        displayCart.accept(cart);
+        Order order=addToCart.andThen(calculateCart).andThen(placeOrder).apply(new AddToCartDTO("P1001",1),createCart.get());
+
+       Assertions.assertEquals(100.0,order.getTotal());
+
+
     }
 
 
@@ -321,5 +348,103 @@ class LineItem
 
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
+    }
+
+    class Cart
+    {
+        String cartId;
+        double cartTotal;
+        List<LineItem> lineItems=new ArrayList<>();
+
+        public String getCartId() {
+            return cartId;
+        }
+
+        public void setCartId(String cartId) {
+            this.cartId = cartId;
+        }
+
+        public double getCartTotal() {
+            return cartTotal;
+        }
+
+        public void setCartTotal(double cartTotal) {
+            this.cartTotal = cartTotal;
+        }
+
+        public List<LineItem> getLineItems() {
+            return lineItems;
+        }
+
+        public void setLineItems(List<LineItem> lineItems) {
+            this.lineItems = lineItems;
+        }
+
+        @Override
+        public String toString() {
+            try
+            {
+                return new ObjectMapper().writeValueAsString(this);
+            }
+            catch(Exception e)
+            {
+                e.printStackTrace();
+            }
+            return "";
+        }
+    }
+}
+
+
+class Order
+{
+    String status;
+    String orderId;
+    double total;
+    List<LineItem> lineItems=new ArrayList<>();
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+
+    public List<LineItem> getLineItems() {
+        return lineItems;
+    }
+
+    public void setLineItems(List<LineItem> lineItems) {
+        this.lineItems = lineItems;
+    }
+
+    @Override
+    public String toString() {
+        try
+        {
+            return new ObjectMapper().writeValueAsString(this);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        return "";
     }
 }

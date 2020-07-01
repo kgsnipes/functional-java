@@ -26,8 +26,6 @@ public class StreamsAPIExamples {
     // Streams provide a way to iterate/operate over a stream of objects without defining how to iterate over these objects and helps focus on what needs to be done with the objects.
 
 
-
-
     @Test
     public void createStream()
     {
