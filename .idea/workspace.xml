@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9189764a-b819-49c5-85dd-21746b3aebbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,18 +41,54 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1373">
-              <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+            <state relative-caret-position="373">
+              <caret line="101" column="62" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5226#5227#0" expanded="true" />
-                <element signature="e#5256#5257#0" expanded="true" />
-                <element signature="e#5302#5303#0" expanded="true" />
+                <element signature="e#1803#1804#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#4687#4688#0" expanded="true" />
+                <element signature="e#4711#4712#0" expanded="true" />
+                <element signature="e#4742#4743#0" expanded="true" />
+                <element signature="e#4768#4769#0" expanded="true" />
+                <element signature="e#4793#4794#0" expanded="true" />
+                <element signature="e#4817#4818#0" expanded="true" />
+                <element signature="e#4848#4849#0" expanded="true" />
+                <element signature="e#4874#4875#0" expanded="true" />
+                <element signature="e#4920#4921#0" expanded="true" />
+                <element signature="e#4974#4975#0" expanded="true" />
+                <element signature="e#5113#5114#0" expanded="true" />
+                <element signature="e#5142#5143#0" expanded="true" />
+                <element signature="e#5186#5187#0" expanded="true" />
+                <element signature="e#5222#5223#0" expanded="true" />
+                <element signature="e#5258#5259#0" expanded="true" />
+                <element signature="e#5290#5291#0" expanded="true" />
                 <element signature="e#5340#5341#0" expanded="true" />
-                <element signature="e#5367#5368#0" expanded="true" />
-                <element signature="e#5393#5394#0" expanded="true" />
-                <element signature="e#5428#5429#0" expanded="true" />
+                <element signature="e#5382#5383#0" expanded="true" />
+                <element signature="e#5426#5427#0" expanded="true" />
                 <element signature="e#5458#5459#0" expanded="true" />
+                <element signature="e#5516#5517#0" expanded="true" />
+                <element signature="e#5558#5559#0" expanded="true" />
+                <element signature="e#6010#6011#0" expanded="true" />
+                <element signature="e#6040#6041#0" expanded="true" />
+                <element signature="e#6086#6087#0" expanded="true" />
+                <element signature="e#6124#6125#0" expanded="true" />
+                <element signature="e#6151#6152#0" expanded="true" />
+                <element signature="e#6177#6178#0" expanded="true" />
+                <element signature="e#6212#6213#0" expanded="true" />
+                <element signature="e#6242#6243#0" expanded="true" />
+                <element signature="e#6515#6516#0" expanded="true" />
+                <element signature="e#6545#6546#0" expanded="true" />
+                <element signature="e#6591#6592#0" expanded="true" />
+                <element signature="e#6629#6630#0" expanded="true" />
+                <element signature="e#6656#6657#0" expanded="true" />
+                <element signature="e#6682#6683#0" expanded="true" />
+                <element signature="e#6717#6718#0" expanded="true" />
+                <element signature="e#6747#6748#0" expanded="true" />
+                <element signature="e#6783#6784#0" expanded="true" />
+                <element signature="e#6815#6816#0" expanded="true" />
+                <element signature="e#6865#6866#0" expanded="true" />
+                <element signature="e#6907#6908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +133,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="-101" />
+    <option name="x" value="1489" />
+    <option name="y" value="-118" />
     <option name="width" value="1428" />
     <option name="height" value="827" />
   </component>
@@ -159,8 +195,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionsAPIExample.lambdaThreadExample">
-    <configuration name="FunctionsAPIExample.biPredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FunctionsAPIExample.biFunctionTest">
+    <configuration name="FunctionsAPIExample.biFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="functional-java" />
       <extension name="coverage">
         <pattern>
@@ -170,7 +206,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.functional.java" />
       <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
-      <option name="METHOD_NAME" value="biPredicateTest" />
+      <option name="METHOD_NAME" value="biFunctionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionsAPIExample.binaryOperatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.functional.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.functional.java" />
+      <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
+      <option name="METHOD_NAME" value="binaryOperatorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,29 +276,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsAPIExample.supplierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="functional-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.functional.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.functional.java" />
-      <option name="MAIN_CLASS_NAME" value="edu.functional.java.FunctionsAPIExample" />
-      <option name="METHOD_NAME" value="supplierTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionsAPIExample.biFunctionTest" />
+        <item itemvalue="JUnit.FunctionsAPIExample.binaryOperatorTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.lambdaThreadExample" />
         <item itemvalue="JUnit.FunctionsAPIExample.cartFlowTest" />
         <item itemvalue="JUnit.FunctionsAPIExample.simpleLambda" />
-        <item itemvalue="JUnit.FunctionsAPIExample.supplierTest" />
-        <item itemvalue="JUnit.FunctionsAPIExample.biPredicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,12 +300,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctionsAPIExample_chainFunctions - 2020.06.30 at 11h 51m 06s.xml">
-      <configuration name="FunctionsAPIExample.chainFunctions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FunctionsAPIExample_predicateTest - 2020.06.30 at 11h 56m 35s.xml">
-      <configuration name="FunctionsAPIExample.predicateTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FunctionsAPIExample_predicateTest - 2020.06.30 at 11h 57m 00s.xml">
       <configuration name="FunctionsAPIExample.predicateTest" configurationId="JUnit" />
     </history-entry>
@@ -294,12 +324,18 @@
     <history-entry file="FunctionsAPIExample_cartFlowTest - 2020.06.30 at 15h 59m 00s.xml">
       <configuration name="FunctionsAPIExample.cartFlowTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FunctionsAPIExample_lambdaThreadExample - 2020.07.01 at 09h 37m 53s.xml">
+      <configuration name="FunctionsAPIExample.lambdaThreadExample" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsAPIExample_lambdaThreadExample - 2020.07.01 at 09h 39m 37s.xml">
+      <configuration name="FunctionsAPIExample.lambdaThreadExample" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-101" width="1428" height="827" extended-state="1" />
+    <frame x="1489" y="-118" width="1428" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1919192" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1919192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,7 +344,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25714287" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,18 +416,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/functional/java/FunctionsAPIExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
+        <state relative-caret-position="373">
+          <caret line="101" column="62" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5226#5227#0" expanded="true" />
-            <element signature="e#5256#5257#0" expanded="true" />
-            <element signature="e#5302#5303#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#4687#4688#0" expanded="true" />
+            <element signature="e#4711#4712#0" expanded="true" />
+            <element signature="e#4742#4743#0" expanded="true" />
+            <element signature="e#4768#4769#0" expanded="true" />
+            <element signature="e#4793#4794#0" expanded="true" />
+            <element signature="e#4817#4818#0" expanded="true" />
+            <element signature="e#4848#4849#0" expanded="true" />
+            <element signature="e#4874#4875#0" expanded="true" />
+            <element signature="e#4920#4921#0" expanded="true" />
+            <element signature="e#4974#4975#0" expanded="true" />
+            <element signature="e#5113#5114#0" expanded="true" />
+            <element signature="e#5142#5143#0" expanded="true" />
+            <element signature="e#5186#5187#0" expanded="true" />
+            <element signature="e#5222#5223#0" expanded="true" />
+            <element signature="e#5258#5259#0" expanded="true" />
+            <element signature="e#5290#5291#0" expanded="true" />
             <element signature="e#5340#5341#0" expanded="true" />
-            <element signature="e#5367#5368#0" expanded="true" />
-            <element signature="e#5393#5394#0" expanded="true" />
-            <element signature="e#5428#5429#0" expanded="true" />
+            <element signature="e#5382#5383#0" expanded="true" />
+            <element signature="e#5426#5427#0" expanded="true" />
             <element signature="e#5458#5459#0" expanded="true" />
+            <element signature="e#5516#5517#0" expanded="true" />
+            <element signature="e#5558#5559#0" expanded="true" />
+            <element signature="e#6010#6011#0" expanded="true" />
+            <element signature="e#6040#6041#0" expanded="true" />
+            <element signature="e#6086#6087#0" expanded="true" />
+            <element signature="e#6124#6125#0" expanded="true" />
+            <element signature="e#6151#6152#0" expanded="true" />
+            <element signature="e#6177#6178#0" expanded="true" />
+            <element signature="e#6212#6213#0" expanded="true" />
+            <element signature="e#6242#6243#0" expanded="true" />
+            <element signature="e#6515#6516#0" expanded="true" />
+            <element signature="e#6545#6546#0" expanded="true" />
+            <element signature="e#6591#6592#0" expanded="true" />
+            <element signature="e#6629#6630#0" expanded="true" />
+            <element signature="e#6656#6657#0" expanded="true" />
+            <element signature="e#6682#6683#0" expanded="true" />
+            <element signature="e#6717#6718#0" expanded="true" />
+            <element signature="e#6747#6748#0" expanded="true" />
+            <element signature="e#6783#6784#0" expanded="true" />
+            <element signature="e#6815#6816#0" expanded="true" />
+            <element signature="e#6865#6866#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
           </folding>
         </state>
       </provider>

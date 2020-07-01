@@ -14,6 +14,19 @@ import java.util.function.*;
 
 public class FunctionsAPIExample {
 
+    /*
+        lambda expression
+        Function
+        BiFunction
+        Unary operator
+        Binary Operator
+        Predicate
+        BiPredicate
+        Supplier
+        Consumer
+
+     */
+
     @Test
     public void simpleLambda()
     {
@@ -32,9 +45,9 @@ public class FunctionsAPIExample {
    @Test
    public void biFunctionTest()
    {
-       BiFunction<Integer,Integer,Integer> addTwoNumbers=(a,b)->a+b;
-       System.out.println(addTwoNumbers.apply(1,2));
-       Assertions.assertEquals(3,addTwoNumbers.apply(1,2).intValue());
+       BiFunction<Integer,String,String> concatNumberWithString=(a,b)->a+b;
+       System.out.println(concatNumberWithString.apply(100,"-PRD"));
+       Assertions.assertEquals("100-PRD",concatNumberWithString.apply(100,"-PRD"));
    }
 
    @Test
@@ -78,6 +91,15 @@ public class FunctionsAPIExample {
 
         System.out.println(incrementX.apply(new Point(10,20)));
         Assertions.assertEquals(20,incrementX.apply(new Point(10,20)).getX());
+    }
+
+    @Test
+    public void binaryOperatorTest()
+    {
+        BinaryOperator<Integer> sum=(a,b)->a+b;
+
+        System.out.println(sum.apply(10,20));
+        Assertions.assertEquals(30,sum.apply(10,20).intValue());
     }
 
 
