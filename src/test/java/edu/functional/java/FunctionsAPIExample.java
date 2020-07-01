@@ -27,6 +27,11 @@ public class FunctionsAPIExample {
 
      */
 
+//    int square(int number)
+//    {
+//        return number*number;
+//    }
+
     @Test
     public void simpleLambda()
     {
