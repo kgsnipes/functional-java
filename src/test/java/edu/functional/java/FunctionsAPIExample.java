@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Random;
+import java.util.concurrent.Executors;
 import java.util.function.*;
 
 public class FunctionsAPIExample {
@@ -152,6 +153,10 @@ public class FunctionsAPIExample {
         new Thread(()->{
             System.out.println("hello lambda expression");
         }).start();
+
+        Executors.newCachedThreadPool().submit(()->{
+            System.out.println("hello executor task");
+        });
     }
 }
 
